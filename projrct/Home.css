@@ -1,0 +1,91 @@
+body {
+	background-color: violet ;
+}
+h1{
+		text-align: center;
+		color: red ;
+
+	}
+h2{
+		color: green ;
+	}	
+p{
+		color: green ;
+		font-weight: bold;
+		font-size:25px;
+		font-family: arial;
+		line-height: 2em;
+	}		
+.c1{
+	color: 	red;
+}	
+.container {
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+	margin-top: 100px;
+	margin-left: 1100px;
+	width: 100%;
+	margin: auto;
+}
+.C5{
+	color: red;
+	border: red 5px solid;
+	border-radius: 15px;
+}
+.C4{
+	border: 1px red solid;
+	border-radius: 15px;
+}
+.C4 li{
+	padding-bottom: 9px;
+	border-bottom: red 5px dotted;
+}
+.C4 ul{
+	list-style-image: url('ph/tic.png');
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	color: red;
+}
+a:active {
+	color: green;
+}
+a:visited{
+	color: black;
+}
+
+.f1{
+	padding: 20px;
+}
+
+.fg{
+	padding-bottom: 20px;
+}
+.f1 label {
+display: block;
+}
+
+.f1 input [type="text"]{
+	padding:10px;
+	width:100%;
+}
+.button {
+	background-color: red;
+	color: white;	
+}
+.button:hover{
+	background-color: red;
+	color: white;
+}
+.block{
+	float:left;
+	width:33.3%;
+	border: 3px solid blue;
+	padding: 10px;
+	box-sizing: border-box; 
+}
